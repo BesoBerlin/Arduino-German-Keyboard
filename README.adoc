@@ -1,7 +1,7 @@
 = Keyboard_DE ist eine Abwandlung von "Keyboard Library for Arduino" für das Verwenden mit deutscher Tastaturbelegung =
 
+== Keyboard_DE is a modification from "Keyboard Library for Arduino" to use with german keyboard layout == 
 https://github.com/arduino-libraries/Keyboard
-Keyboard_DE is a modification from "Keyboard Library for Arduino" to use with german keyboard layout 
 
 = ******************************************************************************************************************************
 Diese Bibliothek dient zum Erstellen von Sketches für Arduino/Genuino Leonardo und Micro, die als Eingabegräte für deutsche Windows-Maschinen funktionieren sollen. 
