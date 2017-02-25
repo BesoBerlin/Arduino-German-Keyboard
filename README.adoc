@@ -1,0 +1,55 @@
+= Keyboard_DE ist eine Abwandlung von "Keyboard Library for Arduino" für das Verwenden mit deutscher Tastaturbelegung =
+
+Keyboard_DE is a modification from "Keyboard Library for Arduino" to use with german keyboard layout 
+
+= ******************************************************************************************************************************
+Diese Bibliothek dient zum Erstellen von Sketches für Arduino/Genuino Leonardo und Micro, die als Eingabegräte für deutsche Windows-Maschinen funktionieren sollen. 
+Die Modifikation der Ursprünglichen Keyboard-Libary sorgt dafür, dass beim Konpilieren alle einfachen Tasten, die sich gegenüber der US-Tastaturbelegung unterscheiden, angepasst werden. 
+Das python script finishGermanLayout.py sorgt schließlich dafür, dass alls Tasten, für deren Verwendung zusätzlich die Taste AltGr gedrückt sein muss, entsprechend im sketch implementiert werden.
+
+This libary is for compiling sketches for Arduino/Genuino Leonardo and Micro, which aim to act as a HID on windows devices with german keyboard layout.
+The modification of the forked libary keyboard changes the scannumbers of simpole characters to fit for german keyboard layout via compiling.
+The python script finishGermanLayout.py edits the sketch to type the charakers, which require to press the AltGr key, correctly.
+
+=== Anleitung ===
+
+1. Kopiere den Ordner "Keyboard_DE" in deinen .../Arduino/Libaries/ - Ordner.  
+   
+2. Kopiere/Verschiebe das Script "finishGermanLayout.py" irgendwo hin, wo du es wieder findest, wenn du es brauchst. 
+
+3. Binde die Bibliothek mit '#include "Keyboard_DE.h"' in dein Sketch ein. 
+    
+4. Kopiere dein Sketch als "input.ino" in den gleichen Ordner, in dem sich das script "finishGermanLayout.py" befindet und führe das Script aus (Gegebenenfalls musst du das Script noch ausführbar machen). 
+
+5. Wenn alles richtig gemacht wurde, sollte im Ordner jetzt eine Datei Namens "finish.ino" erstellt worden sein. Diese ist dann so konvertiert, dass dein Arduino alle Zeichen richtig an einen PC mit Windows übergibt. Diese muss jetzt nurnoch mit Hilfe der Arduino IDE kompiliert und auf den Arduino geladen werden.
+
+== Instructions ==
+
+1. copy the folder Keyboard_DE into your .../Arduino/Libaries/ - folder
+2. copy/move the file "finischGermanLayout.py" anywhere, where you will find it, if you need it.
+3. add this libary to your sketch with '#include "Keyboard_DE.h"'
+4. copy your sketch as "input.ino" into the same directory as the "finishGermanLayout.py" script and run it (maybe you need tomake it executable first)
+5. If everything went well, there should then be a "finish.ino" file in this directory as well, which contains the correct code to deliver all characters corryctly on windows devices - just compile and upload it via Arduino IDE
+
+== ACHTUNG ==
+
+"Ä", "ä", "Ö", "ö", "Ü", "ü" und "ß", die in der deutschen Sprache verwendeten Sonderzeichen werden leider mit diesem Workaround für eine deutsche Tastatur nicht unterstützt.
+
+
+=== License ===
+
+Copyright (c) Arduino LLC. All right reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
