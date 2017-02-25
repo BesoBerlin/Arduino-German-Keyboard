@@ -24,7 +24,7 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"0",
 	"8",
 	"9",
-	r"\\",
+	"\\",
 	"<")
 
 
