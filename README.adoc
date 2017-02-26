@@ -12,6 +12,14 @@ This library is for compiling sketches for Arduino/Genuino Leonardo and Micro, w
 The modification of the forked library keyboard changes the scannumbers of simpole characters to fit for german keyboard layout via compiling.
 The python script finishGermanLayout.py edits the sketch to type the charakers, which require to press the AltGr key, correctly.
 
+== ACHTUNG ==
+
+Dieses Script funktioniert NUR wenn Strings mit doppelten Anführungszeichen markiert sind also "String" ! Einfache Anführungszeichen, also 'String' führt momentan zu einer fehlerhaften Ausgabe.
+"Ä", "ä", "Ö", "ö", "Ü", "ü" und "ß", die in der deutschen Sprache verwendeten Sonderzeichen werden leider mit diesem Workaround für eine deutsche Tastatur nicht unterstützt.
+=
+this script only works when marking strings with double quaotation marks as "string" -- single quotation marks as 'string' wont output a file as expected --
+allso german Umlaut characters "Ä", "ä", "Ö", "ö", "Ü", "ü" and "ß" are not supported by this workaround 
+
 === Anleitung ===
 
 1. Kopiere den Ordner "Keyboard_DE" in deinen .../Arduino/Libraries/ - Ordner.  
@@ -32,7 +40,5 @@ The python script finishGermanLayout.py edits the sketch to type the charakers, 
 4. copy your sketch as "input.ino" into the same directory as the "finishGermanLayout.py" script and run it (maybe you need tomake it executable first)
 5. If everything went well, there should then be a "finish.ino" file in this directory as well, which contains the correct code to deliver all characters corryctly on windows devices - just compile and upload it via Arduino IDE
 
-== ACHTUNG ==
 
-"Ä", "ä", "Ö", "ö", "Ü", "ü" und "ß", die in der deutschen Sprache verwendeten Sonderzeichen werden leider mit diesem Workaround für eine deutsche Tastatur nicht unterstützt.
 
