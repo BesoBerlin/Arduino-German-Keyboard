@@ -14,7 +14,6 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"}",
 	"[",
 	"]",
-    	r"\\",
 	"|")	
 
 	###### liste mit zu drueckenden AltGr + charakteren ######
@@ -24,9 +23,13 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"0",
 	"8",
 	"9",
-	"\\",
 	"<")
 
+	if s.count(r"\\") > 0:	
+		#position ausfindig machen fuer ersetzen
+		charPos = s.find(r"\\")
+		#zeile bis zum charakter kopieren  + stringuebergabe beenden + AltGr druecken + erstezen durch taste drueck bzw. char schreiben + rest der zeile kopieren
+		s = s[:charPos] + "\");\n" + "/*EINRUECKEN*/	Keyboard.press(KEY_RIGHT_ALT);\n" + "/*EINRUECKEN*/   Keyboard.print(\"" + (r"\\") + "\");\n" + "/*EINRUECKEN*/   Keyboard.release(KEY_RIGHT_ALT);\n" + "Keyboard.print(\"" + s[charPos+1:]
 
 	for i in range(len(deu)):		
 	###### Schleife fuer Mehrfachvorfachkommen ######
