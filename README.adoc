@@ -1,6 +1,6 @@
 = Keyboard_DE ist eine Abwandlung von "Keyboard Library for Arduino" für das Verwenden mit deutscher Tastaturbelegung =
 
-https://github.com/arduino-libraries/Keyboard
+=== https://github.com/arduino-libraries/Keyboard ===
 
 = ******************************************************************************************************************************
 Diese Bibliothek dient zum Erstellen von Sketches für Arduino/Genuino Leonardo und Micro, die als Eingabegräte für deutsche Windows-Maschinen funktionieren sollen. 
@@ -25,7 +25,7 @@ Dieses Script funktioniert NUR wenn Strings mit doppelten Anführungszeichen mar
 5. Wenn alles richtig gemacht wurde, sollte im Ordner jetzt eine Datei Namens "finish.ino" erstellt worden sein. Diese ist dann so konvertiert, dass dein Arduino alle Zeichen richtig an einen PC mit Windows übergibt. Diese muss jetzt nurnoch mit Hilfe der Arduino IDE kompiliert und auf den Arduino geladen werden.
 
 == Keyboard_DE is a modification from "Keyboard Library for Arduino" to use with german keyboard layout == 
-https://github.com/arduino-libraries/Keyboard
+=== https://github.com/arduino-libraries/Keyboard ===
 This library is for compiling sketches for Arduino/Genuino Leonardo and Micro, which aim to act as a HID on windows devices with german keyboard layout.
 The modification of the forked library keyboard changes the scannumbers of simpole characters to fit for german keyboard layout via compiling.
 The python script finishGermanLayout.py edits the sketch to type the charakers, which require to press the AltGr key, correctly.
