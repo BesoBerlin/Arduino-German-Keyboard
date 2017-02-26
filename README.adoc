@@ -44,5 +44,10 @@ allso german Umlaut characters "Ä", "ä", "Ö", "ö", "Ü", "ü" and "ß" are n
 4. copy your sketch as "input.ino" into the same directory as the "finishGermanLayout.py" script and run it (maybe you need tomake it executable first)
 5. If everything went well, there should then be a "finish.ino" file in this directory as well, which contains the correct code to deliver all characters corryctly on windows devices - just compile and upload it via Arduino IDE
 
+== License ==
+
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 
 
