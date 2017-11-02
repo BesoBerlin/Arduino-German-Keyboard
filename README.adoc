@@ -4,7 +4,7 @@
 
 = ******************************************************************************************************************************
 Diese Bibliothek dient zum Erstellen von Sketches für Arduino/Genuino Leonardo und Micro, die als Eingabegräte für deutsche Windows-Maschinen funktionieren sollen. 
-Die Modifikation der Ursprünglichen Keyboard-Library sorgt dafür, dass beim Konpilieren alle einfachen Tasten, die sich gegenüber der US-Tastaturbelegung unterscheiden, angepasst werden. 
+Die Modifikation der Ursprünglichen Keyboard-Library sorgt dafür, dass beim Kompilieren alle einfachen Tasten, die sich gegenüber der US-Tastaturbelegung unterscheiden, angepasst werden. 
 Das python script finishGermanLayout.py sorgt schließlich dafür, dass alls Tasten, für deren Verwendung zusätzlich die Taste AltGr gedrückt sein muss, entsprechend im sketch implementiert werden.
 
 == ACHTUNG ==
