@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 
 #danke, dass du BesoBerlins Finish zur konvertierung fuer charaktere, die AltGr benoetigen benutzt!
 
@@ -15,7 +16,7 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"[",
 	"]",
 	"|",
-	"\")	
+	"\\")	
 
 	###### liste mit zu drueckenden AltGr + charakteren ######
 	altGr = ("+",
