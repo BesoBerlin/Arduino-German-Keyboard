@@ -10,7 +10,7 @@ Das python script finishGermanLayout.py sorgt schließlich dafür, dass alls Tas
 == ACHTUNG ==
 
 Dieses Script funktioniert NUR wenn Strings mit doppelten Anführungszeichen markiert sind also "String" ! Einfache Anführungszeichen, also 'String' führt momentan zu einer fehlerhaften Ausgabe.
-"Ä", "ä", "Ö", "ö", "Ü", "ü" und "ß", die in der deutschen Sprache verwendeten Sonderzeichen werden leider mit diesem Workaround für eine deutsche Tastatur nicht unterstützt.
+"Ä", "ä", "Ö", "ö", "Ü" und "ü" , die in der deutschen Sprache verwendeten Umlaute werden leider mit diesem Workaround für eine deutsche Tastatur noch nicht unterstützt.
 
 === Anleitung ===
 
