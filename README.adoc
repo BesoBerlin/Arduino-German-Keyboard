@@ -34,7 +34,7 @@ The python script finishGermanLayout.py edits the sketch to type the charakers, 
 == Attention ==
 
 this script only works when marking strings with double quaotation marks as "string" -- single quotation marks as 'string' wont output a file as expected --
-allso german Umlaut characters "Ä", "ä", "Ö", "ö", "Ü", "ü" and "ß" are not supported by this workaround 
+allso german Umlaut characters "Ä", "ä", "Ö", "ö", "Ü" and "ü" are not supported by this workaround yet. 
 
 == Instructions ==
 
