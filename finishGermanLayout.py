@@ -16,7 +16,7 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"[",
 	"]",
 	"|",
-	"\\")	
+	"\\\\")	
 
 	###### liste mit zu drueckenden AltGr + charakteren ######
 	altGr = ("+",
@@ -26,7 +26,7 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"8",
 	"9",
 	"<",
-	"ß")
+	"\\\\")
 
 	if s.count(r"\\") > 0:	
 		#position ausfindig machen fuer ersetzen
