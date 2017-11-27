@@ -21,6 +21,7 @@ Dieses Script funktioniert NUR wenn Strings mit doppelten Anführungszeichen mar
 3. Binde die Bibliothek mit '#include "Keyboard_DE.h"' in dein Sketch ein. 
     
 4. Kopiere dein Sketch als "input.ino" in den gleichen Ordner, in dem sich das script "finishGermanLayout.py" befindet und führe das Script aus (Gegebenenfalls musst du das Script noch ausführbar machen). 
+Solltest du Windows verwenden und ggf. sogar kein Python installiert haben, kannst du alternativ auch die finishGermanLayout.exe ausführen.
 
 5. Wenn alles richtig gemacht wurde, sollte im Ordner jetzt eine Datei Namens "finish.ino" erstellt worden sein. Diese ist dann so konvertiert, dass dein Arduino alle Zeichen richtig an einen PC mit Windows übergibt. Diese muss jetzt nurnoch mit Hilfe der Arduino IDE kompiliert und auf den Arduino geladen werden.
 
@@ -34,14 +35,15 @@ The python script finishGermanLayout.py edits the sketch to type the charakers, 
 == Attention ==
 
 this script only works when marking strings with double quaotation marks as "string" -- single quotation marks as 'string' wont output a file as expected --
-allso german Umlaut characters "Ä", "ä", "Ö", "ö", "Ü" and "ü" are not supported by this workaround yet. 
+allso german Umlaut characters "Ä", "ä", "Ö", "ö", "Ü" and "ü" are not supported by this workaround yet
 
 == Instructions ==
 
 1. copy the folder Keyboard_DE into your .../Arduino/Libraries/ - folder
-2. copy/move the file "finischGermanLayout.py" anywhere, where you will find it, if you need it.
+2. copy/move the file "finischGermanLayout.py" anywhere, where you will find it, if you need it
 3. add this library to your sketch with '#include "Keyboard_DE.h"'
 4. copy your sketch as "input.ino" into the same directory as the "finishGermanLayout.py" script and run it (maybe you need tomake it executable first)
+if you are using windows you can run the finishGermanLayout.exe instead
 5. If everything went well, there should then be a "finish.ino" file in this directory as well, which contains the correct code to deliver all characters corryctly on windows devices - just compile and upload it via Arduino IDE
 
 == License ==
