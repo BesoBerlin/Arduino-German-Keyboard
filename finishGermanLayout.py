@@ -16,6 +16,7 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"[",
 	"]",
 	"|",
+	"€",
 	"\\\\")	
 
 	###### liste mit zu drueckenden AltGr + charakteren ######
@@ -26,6 +27,7 @@ def mappen(s):		#hier werden charaktere gemappt, fuer deren verwendung das druec
 	"8",
 	"9",
 	"<",
+	"e",
 	"\\\\")
 
 	if s.count(r"\\") > 0:	
