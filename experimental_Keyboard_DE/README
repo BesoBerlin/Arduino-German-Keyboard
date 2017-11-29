@@ -1,0 +1,1 @@
+Diese Library funktioniert komplett ohne die Nachbearbeitung mit einem Finish (.py odr .exe), jeodoch funktioniert bei dieser Lösung kein "<", ">" und kein "|" sowie keine anderen Nicht-Ascii-Zeichen.
