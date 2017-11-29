@@ -83,7 +83,6 @@ extern
 const uint8_t _asciimap[128] PROGMEM;
 
 #define SHIFT 0x80
-#define ALTGR 0x86
 const uint8_t _asciimap[128] =
 {
 	0x00,             // NUL
@@ -151,7 +150,7 @@ const uint8_t _asciimap[128] =
 	0x27|SHIFT,          // =
 	0x64|SHIFT,      // >
 	0x2d|SHIFT,      // ?
-	0x14|ALTGR,      // @
+	0x14,      // @
 	0x04|SHIFT,      // A
 	0x05|SHIFT,      // B
 	0x06|SHIFT,      // C
@@ -178,9 +177,9 @@ const uint8_t _asciimap[128] =
 	0x1b|SHIFT,      // X
 	0x1d|SHIFT,      // Y
 	0x1c|SHIFT,      // Z
-	0x25|ALTGR,          // [
+	0x25,          // [
 	0x2d,          // bslash
-	0x26|ALTGR,          // ]
+	0x26,          // ]
 	0x35,		    // ^
 	0x38|SHIFT,    // _
 	0x2e|SHIFT,          // `
@@ -210,10 +209,10 @@ const uint8_t _asciimap[128] =
 	0x1b,          // x
 	0x1d,          // y
 	0x1c,          // z
-	0x2f|ALTGR,    // {
-	0x2c|ALTGR,    // |
-	0x2e|ALTGR,    // }
-	0x30|ALTGR,    // ~
+	0x2f,    // {
+	0x2c,    // |
+	0x2e,    // }
+	0x30,    // ~
 	0		// DEL
 };
 
