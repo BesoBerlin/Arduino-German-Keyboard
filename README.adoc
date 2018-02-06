@@ -25,6 +25,8 @@ Solltest du Windows verwenden und ggf. sogar kein Python installiert haben, kann
 
 5. Wenn alles richtig gemacht wurde, sollte im Ordner jetzt eine Datei Namens "finish.ino" erstellt worden sein. Diese ist dann so konvertiert, dass dein Arduino alle Zeichen richtig an einen PC mit Windows übergibt. Diese muss jetzt nurnoch mit Hilfe der Arduino IDE kompiliert und auf den Arduino geladen werden.
 
+-- Alternativ funktioniert die experimental_Keyboard_DE Bibliothek ohne die zusätzliche Bearbeitung durch ein Python Scirpt. Allerdings bekomme ich damit leider kein "<", ">" und kein "|" hin... --
+
 == Keyboard_DE is a modification from "Keyboard Library for Arduino" to use with german keyboard layout == 
 === https://github.com/arduino-libraries/Keyboard ===
 This library is for compiling sketches for Arduino/Genuino Leonardo and Micro, which aim to act as a HID on windows devices with german keyboard layout.
